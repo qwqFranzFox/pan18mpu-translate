@@ -7,7 +7,7 @@
   body-en: "",
   keywords-en: (),
 ) = {
-  set page(header: none)
+  // set page(header: none)
 
   set text(font: fonts.宋体)
   {
