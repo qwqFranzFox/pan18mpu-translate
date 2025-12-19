@@ -639,7 +639,7 @@ SRAM）可以放8个，同时包含内核和VMM组件，剩下128KB用于共享�
 
 #strong[致谢。]我们感谢匿名的审阅者和他们的有帮助的反馈，以及我们的引路人，他们极大地帮助了我们提高这篇文章的明确性。
 
-#bib(bibfunc: bibliography("../../bib.yml"))
+#bib(bibfunc: bibliography("bib.yml"))
 
 #show: appendix;
 

@@ -1,0 +1,330 @@
+# [1] A. Burns and R. Davis, "Mixed criticality systems-a review," Department of Computer Science, University of York, Tech. Rep, 2013.
+mixed-criticality:
+  type: Article
+  title: Mixed criticality systems-a review
+  author: ["A. Burns", "R. Davis"]
+  date: 2013
+  publisher: "Department of Computer Science, University of York, Tech. Rep"
+
+# [2] Q. Wang, Y. Ren, M. Scaperoth, and G. Parmer, "Speck: A kernel for scalable predictability," in Proceedings of the 21st IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS), 2015.
+scale-pred:
+  type: Article
+  title: "Speck: A kernel for scalable predictability"
+  author: ["Q. Wang", "Y. Ren", "M. Scaperoth", "G. Parmer"]
+  parent:
+    type: Periodical
+    title: "Proceedings of the 21st IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)"
+    date: 2015
+
+# [3] H. Levy, "Capability-based computer systems," 1984.
+capability:
+  type: Article
+  title: Capability-based computer systems
+  author: "H.Levy"
+  date: 1984
+
+# [4] G. Parmer and R. West, "HiRes: A system for predictable hierarchical resource management," in Proceedings of the 17th IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS), 2011.
+hires:
+  type: Article
+  title: "HiRes: A system for predictable hierarchical resource management"
+  author: ["G. Parmer", "R. West"]
+  parent:
+    type: Periodical
+    title: "Proceedings of the 17th IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)"
+    date: 2011
+
+# [5] P. K. Gadepalli, R. Gifford, L. Baier, M. Kelly, and G. Parmer, "Temporal capabilities: Access control for time," in Proceedings of the 38th IEEE Real-Time Systems Symposium, 2017.
+temp-cap:
+  type: Article
+  title: "Temporal capabilities: Access control for time"
+  author: ["P. K. Gadepalli", "R. Gifford", "L. Baier", "M. Kelly", "G. Parmer"]
+  parent:
+    type: Periodical
+    title: "Proceedings of the 38th IEEE Real-Time Systems Symposium"
+    date: 2017
+
+# [6] G. Parmer and R. West, "Predictable interrupt management and scheduling in the Composite component-based system," in Proceedings of the IEEE International Real-Time Systems Symposium (RTSS), 2008.
+pred-inter:
+  type: Article
+  title: "Predictable interrupt management and scheduling in the Composite component-based system"
+  author: ["G. Parmer", "R. West"]
+  parent:
+    type: Periodical
+    title: "Proceedings of the IEEE International Real-Time Systems Symposium (RTSS)"
+    date: 2008
+
+# [7] U. Steinberg and B. Kauer, "Nova: a microhypervisor-based secure virtualization architecture," in Proceedings of the 5th European conference on Computer systems, ser. EuroSys '10, 2010, pp. 209–222.
+nova:
+  type: Article
+  title: "Nova: a microhypervisor-based secure virtualization architecture"
+  author: ["U. Steinberg", "B. Kauer"]
+  parent:
+    type: Periodical
+    title: "Proceedings of the 5th European conference on Computer systems, ser. EuroSys"
+    date: 2010
+    page-range: 209-222
+
+# [8] S. A. Panchamukhi and F. Mueller, "Providing task isolation via TLB coloring," in 21st IEEE Real-Time and Embedded Technology and Applications Symposium, 2015.
+tlb-coloring:
+  type: Article
+  title: "Providing task isolation via TLB coloring"
+  author: ["S. A. Panchamukhi", "F. Mueller"]
+  parent:
+    type: Periodical
+    title: "21st IEEE Real-Time and Embedded Technology and Applications Symposium"
+    date: 2015
+
+# [9] G. C. Hunt and J. R. Larus, "Singularity: Rethinking the software stack," SIGOPS Oper. Syst. Rev., 2007.
+singularity:
+  type: Article
+  title: "Singularity: Rethinking the software stack"
+  author: ["G. C. Hunt", "J. R. Larus"]
+  parent:
+    type: Periodical
+    title: "SIGOPS Oper. Syst. Rev."
+    date: 2007
+
+# [10] J. Navarro, S. Iyer, P. Druschel, and A. Cox, "Transparent operating system support for superpages," in Proceedings of the 5th USENIX Symposium on Operating Systems Design and Implementation (OSDI), Boston, MA, USA, December 2002.
+superpages:
+  type: Article
+  title: "Transparent operating system support for superpages"
+  author: ["J. Navarro", "S. Iyer", "P. Druschel", "A. Cox"]
+  parent:
+    type: Periodical
+    title: "Proceedings of the 5th USENIX Symposium on Operating Systems Design and Implementation (OSDI)"
+    location: "Boston, MA, USA"
+    date: 2002-12
+
+# [11] J. S. Chase, M. Baker-Harvey, H. M. Levy, and E. D. Lazowska, "Opal: A single address space system for 64-bit architectures," Operating Systems Review, vol. 26, no. 2, p. 9, 1992.
+opal:
+  type: Article
+  title: "Opal: A single address space system for 64-bit architectures"
+  author: ["J. S. Chase", "M. Baker-Harvey", "H. M. Levy", "E. D. Lazowska"]
+  parent:
+    type: Periodical
+    title: "Operating Systems Review"
+    volume: 26
+    issue: 2
+    page-range: 9
+    date: 1992
+  url: "http://citeseer.ist.psu.edu/58003.html"
+
+# [12] F. Paci, D. Brunelli, and L. Benini, "Lightweight IO virtualization on MPU enabled microcontrollers," in Proceedings of the Embedded Operating Systems Workshop co-located with the Embedded Systems Week (ESWEEK 2016), Pittsburgh PA, USA, October 6, 2016., 2016.
+io-virt:
+  type: Article
+  title: "Lightweight IO virtualization on MPU enabled microcontrollers"
+  author: ["F. Paci", "D. Brunelli", "L. Benini"]
+  parent:
+    type: Periodical
+    title: "Proceedings of the Embedded Operating Systems Workshop co-located with the Embedded Systems Week (ESWEEK 2016)"
+    location: "Pittsburgh PA, USA"
+    date: 2016-10-06
+
+# [13] D. Danner, R. Muller, W. Schro¨der-Preikschat, W. Hofer, and D. Lohmann, "SAFER SLOTH: effciient, hardware-tailored memory protection," in 20th IEEE Real-Time and Embedded Technology and Applications Symposium, (RTAS), 2014.
+safer-sloth:
+  type: Article
+  title: "SAFER SLOTH: efficient, hardware-tailored memory protection"
+  author: ["D. Danner", "R. Muller", "W. Schröder-Preikschat", "W. Hofer", "D. Lohmann"]
+  parent:
+    type: Periodical
+    title: "20th IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)"
+    date: 2014
+
+# [14] L. Amit, C. Bradford, G. Branden, G. Daniel, P. Pat, D. Prabal, and L. Philip, "Multiprogramming a 64 kB computer safely and efficiently," in Proceedings of the 26th Symposium on Operating Systems Principles (SOSP), 2017.
+multiprog-64kb:
+  type: Article
+  title: "Multiprogramming a 64 kB computer safely and efficiently"
+  author: ["L. Amit", "C. Bradford", "G. Branden", "G. Daniel", "P. Pat", "D. Prabal", "L. Philip"]
+  parent:
+    type: Periodical
+    title: "Proceedings of the 26th Symposium on Operating Systems Principles (SOSP)"
+    date: 2017
+
+# [15] J. B. Dennis and E. C. V. Horn, "Programming semantics for multiprogrammed computations," Commun. ACM, vol. 26, no. 1, pp. 29–35, 1983.
+prog-semantics:
+  type: Article
+  title: "Programming semantics for multiprogrammed computations"
+  author: ["J. B. Dennis", "E. C. V. Horn"]
+  parent:
+    type: Periodical
+    title: "Commun. ACM"
+    volume: 26
+    issue: 1
+    page-range: 29-35
+    date: 1983
+
+# [16] B. W. Lampson, "A note on the confinement problem," Commun. ACM, vol. 16, no. 10, pp. 613–615, 1973.
+confinement:
+  type: Article
+  title: "A note on the confinement problem"
+  author: "B. W. Lampson"
+  parent:
+    type: Periodical
+    title: "Commun. ACM"
+    volume: 16
+    issue: 10
+    page-range: 613-615
+    date: 1973
+
+# [17] "The Fiasco microkernel: http://l4re.org, retrieved 10/6/17."
+fiasco:
+  type: Web
+  title: "The Fiasco microkernel"
+  url: "http://l4re.org"
+  date: 2017-10-06
+
+# [18] G. Klein, K. Elphinstone, G. Heiser, J. Andronick, D. Cock, P. Derrin, D. Elkaduwe, K. Engelhardt, R. Kolanski, M. Norrish, T. Sewell, H. Tuch, and S. Winwood, "seL4: Formal verification of an OS kernel," in Proceedings of the 22nd ACM Symposium on Operating Systems Principles. Big Sky, MT, USA: ACM, Oct 2009.
+
+sel4:
+  type: Article
+  title: "seL4: Formal verification of an OS kernel"
+  author: ["G. Klein", "K. Elphinstone", "G. Heiser", "J. Andronick", "D. Cock", "P. Derrin", "D. Elkaduwe", "K. Engelhardt", "R. Kolanski", "M. Norrish", "T. Sewell", "H. Tuch", "S. Winwood"]
+  parent:
+    type: Periodical
+    title: "Proceedings of the 22nd ACM Symposium on Operating Systems Principles"
+    location: "Big Sky, MT, USA"
+    publisher: "ACM"
+    date: 2009-10
+
+# [19] J. S. Shapiro, J. M. Smith, and D. J. Farber, "EROS: a fast capability system," in Symposium on Operating Systems Principles, 1999, pp. 170–185.
+eros:
+  type: Article
+  title: "EROS: a fast capability system"
+  author: ["J. S. Shapiro", "J. M. Smith", "D. J. Farber"]
+  parent:
+    type: Periodical
+    title: "Symposium on Operating Systems Principles"
+    date: 1999
+    page-range: 170-185
+  url: "http://citeseer.ist.psu.edu/shapiro99eros.html"
+
+# [20] B. Ford and J. Lepreau, "Evolving Mach 3.0 to a migrating thread model," in Proceedings of the Winter 1994 USENIX Technical Conference and Exhibition, 1994.
+mach-thread:
+  type: Article
+  title: "Evolving Mach 3.0 to a migrating thread model"
+  author: ["B. Ford", "J. Lepreau"]
+  parent:
+    type: Periodical
+    title: "Proceedings of the Winter 1994 USENIX Technical Conference and Exhibition"
+    date: 1994
+
+# [21] J. Liedtke and K. Elphinstone, "Guarded page tables on Mips R4600 or an exercise in architecture-dependent micro optimization," SIGOPS Oper. Syst. Rev., vol. 30, no. 1, pp. 4–15, 1996.
+guarded-page:
+  type: Article
+  title: "Guarded page tables on Mips R4600 or an exercise in architecture-dependent micro optimization"
+  author: ["J. Liedtke", "K. Elphinstone"]
+  parent:
+    type: Periodical
+    title: "SIGOPS Oper. Syst. Rev."
+    volume: 30
+    issue: 1
+    page-range: 4-15
+    date: 1996
+
+# [22] B. Dragovic, K. Fraser, S. Hand, T. Harris, A. Ho, I. Pratt, A. Warfield, P. Barham, and R. Neugebauer, "Xen and the art of virtualization," in Proceedings of the ACM Symposium on Operating Systems Principles (SOSP), 2003.
+xen:
+  type: Article
+  title: "Xen and the art of virtualization"
+  author: ["B. Dragovic", "K. Fraser", "S. Hand", "T. Harris", "A. Ho", "I. Pratt", "A. Warfield", "P. Barham", "R. Neugebauer"]
+  parent:
+    type: Periodical
+    title: "Proceedings of the ACM Symposium on Operating Systems Principles (SOSP)"
+    date: 2003
+
+# [23] Y. Zhang and R. West, "Process-aware interrupt scheduling and accounting," in RTSS '06: Proceedings of the 27th IEEE International Real-Time Systems Symposium. Washington, DC, USA: IEEE Computer Society, 2006, pp. 191–201.
+proc-aware-int:
+  type: Article
+  title: "Process-aware interrupt scheduling and accounting"
+  author: ["Y. Zhang", "R. West"]
+  parent:
+    type: Periodical
+    title: "RTSS '06: Proceedings of the 27th IEEE International Real-Time Systems Symposium"
+    location: "Washington, DC, USA"
+    publisher: "IEEE Computer Society"
+    date: 2006
+    page-range: 191-201
+
+# [24] C. Li, S. Xi, C. Lu, C. D. Gill, and R. Guerin, "Prioritizing soft real-time network traffic in virtualized hosts based on xen," in 21st IEEE RealTime and Embedded Technology and Applications Symposium (RTAS), 2015.
+xen-network:
+  type: Article
+  title: "Prioritizing soft real-time network traffic in virtualized hosts based on xen"
+  author: ["C. Li", "S. Xi", "C. Lu", "C. D. Gill", "R. Guerin"]
+  parent:
+    type: Periodical
+    title: "21st IEEE RealTime and Embedded Technology and Applications Symposium (RTAS)"
+    date: 2015
+
+# [25] M. R. Guthaus, J. S. Ringenberg, D. Ernst, T. M. Austin, T. Mudge, and R. B. Brown, "MiBench: A free, commercially representative embedded benchmark suite," in Proceedings of the Workload Characterization, 2001. WWC-4. 2001 IEEE International Workshop, 2001.
+mibench:
+  type: Article
+  title: "MiBench: A free, commercially representative embedded benchmark suite"
+  author: ["M. R. Guthaus", "J. S. Ringenberg", "D. Ernst", "T. M. Austin", "T. Mudge", "R. B. Brown"]
+  parent:
+    type: Periodical
+    title: "Proceedings of the Workload Characterization, 2001. WWC-4. 2001 IEEE International Workshop"
+    date: 2001
+
+# [26] D. Gay, P. Levis, R. von Behren, M. Welsh, E. Brewer, and D. Culler, "The nesc language: A holistic approach to networked embedded systems," in Proceedings of the ACM SIGPLAN 2003 Conference on Programming Language Design and Implementation (PLDI), 2003.
+nesc:
+  type: Article
+  title: "The nesc language: A holistic approach to networked embedded systems"
+  author: ["D. Gay", "P. Levis", "R. von Behren", "M. Welsh", "E. Brewer", "D. Culler"]
+  parent:
+    type: Periodical
+    title: "Proceedings of the ACM SIGPLAN 2003 Conference on Programming Language Design and Implementation (PLDI)"
+    date: 2003
+
+# [27] "MicroPython for microcontrollers: http://www.micropython.org, retrieved 10/6/17."
+micropython:
+  type: Web
+  title: "MicroPython for microcontrollers"
+  url: "http://www.micropython.org"
+  date: 2017-10-06
+
+# [28] "eLua project: http://www.eluaproject.net, retrieved 10/6/17."
+elua:
+  type: Web
+  title: "eLua project"
+  url: "http://www.eluaproject.net"
+  date: 2017-10-06
+
+# [29] "MicroEJ for microcontrollers: http://www.microej.com, retrieved 10/6/17."
+microej:
+  type: Web
+  title: "MicroEJ for microcontrollers"
+  url: "http://www.microej.com"
+  date: 2017-10-06
+
+# [30] "mJS embedded javascript engine for C/C++: http://github.com/cesanta/mjs, retrieved 10/6/17."
+mjs:
+  type: Web
+  title: "mJS embedded javascript engine for C/C++"
+  url: "http://github.com/cesanta/mjs"
+  date: 2017-10-06
+
+# [31] "FreeRTOS: http://www.freertos.org, retrieved 5/1/13."
+freertos:
+  type: Web
+  title: "FreeRTOS"
+  url: "http://www.freertos.org"
+  date: 2013-05-01
+
+# [32] C.-C. Han, R. Kumar, R. Shea, E. Kohler, and M. Srivastava, "A dynamic operating system for sensor nodes," in Proceedings of the 3rd International Conference on Mobile Systems, Applications, and Services, 2005.
+dynamic-os:
+  type: Article
+  title: "A dynamic operating system for sensor nodes"
+  author: ["C.-C. Han", "R. Kumar", "R. Shea", "E. Kohler", "M. Srivastava"]
+  parent:
+    type: Periodical
+    title: "Proceedings of the 3rd International Conference on Mobile Systems, Applications, and Services"
+    date: 2005
+
+# [33] A. Dunkels, B. Gronvall, and T. Voigt, "Contiki - a lightweight and flexible operating system for tiny networked sensors," in Proceedings of the 29th Annual IEEE International Conference on Local Computer Networks, 2004.
+contiki:
+  type: Article
+  title: "Contiki - a lightweight and flexible operating system for tiny networked sensors"
+  author: ["A. Dunkels", "B. Gronvall", "T. Voigt"]
+  parent:
+    type: Periodical
+    title: "Proceedings of the 29th Annual IEEE International Conference on Local Computer Networks"
+    date: 2004
